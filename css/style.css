@@ -136,4 +136,9 @@ body {
 	.card {	
 	width: 326px;
 	}
+	
+	.attribution {
+	position: relative;
+		padding-top: 50px;
+}
 }
