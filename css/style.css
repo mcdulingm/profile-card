@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+	background-color: hsl(185, 75%, 39%);
+	background-position: right 50vw bottom 30vh, left 50vw top 50vh;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: flex;  
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	flex-direction: column;
+	overflow: hidden;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.card {	
+	width: 350px;
+	height: 374px;
+	background-image: url("../images/bg-pattern-card.svg");
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: left top;
+	box-shadow: #0b767f 0px 20px 90px;
+	border-radius: 17px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.card__info {
+	display: flex;  
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	bottom: 0;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+.card__info__content {
+	width: 100%;
+	padding-top: 90px;
+}
+
+
+.card__info__img--1 {
+	border-radius: 100px;
+	border: 5px solid #ffffff;
+}
+
+.card__info__content__text {
+	padding: 18px 30px 15px 30px;
+	border-bottom: 1px solid #e8e8e8;
+	color: hsl(227, 10%, 46%);
+	
+}
+
+.card__info__content__text--1 {
+	font-size: 1.1250em;
+	font-weight: 700;
+	color: #35364a;
+}
+
+.card__info__content__text--2 {
+	padding-left: 10px;	
+	color: hsl(0, 0%, 59%);
+	font-weight: 400;
+}
+
+.card__info__content__text--3 {
+	padding-top: 10px;
+	font-size: 14px;
+	padding-bottom: 8px;
+}
+
+
+.card__info__list__items {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-top: 29px;
+	margin-left: -10px;
+	width: 350px;
+	text-align: center;
+}
+
+.card__info__list__item {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.1250em;
+	font-weight: 700;
+	color: #35364a;
+	-webkit-text-stroke: 0.01em #35364a;
+}
+
+.card__info__list__item_description {
+	font-weight: 400;
+	font-size: 0.6em;
+	padding-top: 6px;
+	letter-spacing: 0.1em;
+	color: hsl(227, 10%, 46%);
+	transform: scale(1,0.9);
+	-webkit-text-stroke: 0px;
+}
+
+.attribution {
+	position: absolute;
+	bottom: 20px;
+	font-size: 11px;
+	text-align: center;
+	z-index: 1;
+	line-height: 1.5;
+	color: #ffffff;
+}
+
+.attribution a { 
+	color: #ffffff;
+	text-decoration: none;
+}
+
+@media (max-width: 480px){
+	.card {	
+	width: 326px;
+	}
+}
