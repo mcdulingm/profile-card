@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Click here](https://github.com/mcdulingm/profile-card.git)
-- Live Site URL: [Click here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://mcdulingm.github.io/profile-card/)
 
 ## My process
 
